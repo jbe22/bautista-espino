@@ -1,0 +1,107 @@
+/* body */
+.body {
+  margin: auto;
+  font-size: 1.2rem;
+  font-family: -apple-system, sans-serif !important;
+  background-color: #202124 !important;
+  color: #bdc1c6 !important;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: #bdc1c6 !important;
+}
+a:visited {
+  color: #bdc1c6 !important;
+}
+a:hover {
+  color: #3c4043 !important;
+}
+
+
+/* Main de Index */
+.card-img-overlay{
+  text-align: center;
+  display: block;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  padding: 24px;
+  background-color: #202124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px #0000001a;
+}
+.footer img {
+  padding: 16px;
+  margin: auto;
+  width: 36px;
+}
+/* main de pagina sede.html */
+.main-sedes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 16px;
+  border: 1px solid #3c4043;
+}
+.main-sedes div p {
+  font-weight: 300;
+}
+
+/* Pagina de cuenta.html */
+.iniciarCesion form {
+  padding: 16px;
+  background-color: #202124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px #0000001a;
+  margin: auto;
+  flex-direction: column;
+  border: 1px solid #3c4043;
+}
+.main-cuenta h3 {
+  display: inline-block;
+  border: 1px solid #3c4043;
+  font-weight: 600;
+}
+.main-cuenta label {
+  font-weight: 300;
+}
+.boton input {
+  background-color: #202124;
+  border: 1px solid #3c4043;
+  color: #ffffff;
+  border-radius: 40px;
+}
+/* Pagina de playlist.html */
+.main-playlist {
+  padding: 16px;
+  background-color: #202124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  border: 1px solid #3c4043;
+}
+/* Pagina a contacto.html */
+.main-contacto div {
+  padding: 16px;
+  background-color: #202124;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  border: 1px solid #3c4043;
+}
