@@ -7,6 +7,9 @@
   color: #bdc1c6 !important;
   -webkit-text-size-adjust: 100%;
 }
+.navbar-brand img {
+  transform: scale(0.92 !important);
+}
 
 a {
   outline: none;
@@ -40,9 +43,9 @@ a:hover {
   box-shadow: 0 2px 4px #0000001a;
 }
 .footer img {
-  padding: 16px;
+  padding: 16px ;
   margin: auto;
-  width: 36px;
+  width: 36px !important; 
 }
 /* main de pagina sede.html */
 .main-sedes div {
