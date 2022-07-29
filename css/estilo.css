@@ -8,7 +8,7 @@
   -webkit-text-size-adjust: 100%;
 }
 .navbar-brand img {
-  transform: scale(0.92 !important);
+  transform: scale(0.92);
 }
 
 a {
@@ -27,9 +27,9 @@ a:hover {
 
 
 /* Main de Index */
-.card-img-overlay{
-  text-align: center;
-  display: block;
+.card-img-overlay {
+  text-align: center !important;
+
 }
 
 /* Footer */
@@ -43,8 +43,8 @@ a:hover {
   box-shadow: 0 2px 4px #0000001a;
 }
 .footer img {
-  padding: 16px ;
-  margin: auto;
+  padding: 16px !important;
+  margin: auto !important;
   width: 36px !important; 
 }
 /* main de pagina sede.html */
@@ -107,4 +107,10 @@ a:hover {
   margin: auto;
   flex-direction: column;
   border: 1px solid #3c4043;
+}
+.carousel {
+  padding: 16px !important;
+}
+.h1 {
+  text-align: center !important;
 }
