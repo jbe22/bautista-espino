@@ -43,7 +43,6 @@ a:hover {
   box-shadow: 0 2px 4px #0000001a;
 }
 .footer img {
-  padding: 16px !important;
   margin: auto !important;
   width: 36px !important; 
 }
@@ -113,4 +112,26 @@ a:hover {
 }
 .h1 {
   text-align: center !important;
+}
+.form-floating {
+  padding: 16px;
+}
+.card-img  {
+  backdrop-filter: opacity(100%) !important;
+}
+.contacto {
+  
+    position: relative;
+    padding: 24px;
+    background-color: #202124;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px #0000001a;
+  
+}
+.contacto img {
+  margin: auto !important;
+  width:90px !important; 
+  padding: 16px;
 }
